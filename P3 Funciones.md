@@ -166,3 +166,37 @@ int main(int argc, char *argv[]){
 	cout<<"la raíz cuadrada de a es:"<<<sqrt(a);
 }
 ´´´
+# Ejercicio 1
+
+Compila mira el error e intenta adivinar la intención del programador.
+
+
+# Ejercicio 2
+
+Uno de los ejercicios de teoría es muy parecido, busca cin.
+
+Es importante navegar por: https://www.w3schools.com/cpp/cpp_math.asp
+
+# Ejercicio 3
+
+Es una adaptación de t1. Que incluye varias llamadas como t3.
+
+# Ejercicio 4
+
+Similar a t3.
+
+# Ejercicio 5, 6
+
+Laboriosa, de electricidad.
+
+# Ejercicio 7
+
+Área del prisma.
+Deben hallar las fórmulas, si no la saben buscando por internet.
+
+# Ejercicio 8.
+
+La 8 tiene dificultades al insertar la fórmula.
+Tiene mas nivel al incluir operaciones con tipos de datos.
+
+
