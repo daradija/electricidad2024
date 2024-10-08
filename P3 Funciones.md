@@ -84,3 +84,23 @@ int main (int argc, char *argv[]) {
 }
 
 ```
+
+# Códigos equivalentes
+Desde la forma mas compacta hasta la más extendida.
+
+```cpp
+cout << area_triangulo(3.5, 4.7);
+
+float area=area_triangulo(3.5, 4.7);
+cout << area;
+
+float area;
+area=area_triangulo(3.5, 4.7);
+cout << area;
+
+float base=3.5,altura=4.7;
+float area;
+area=area_triangulo(base, altura);
+cout << area;
+```
+
