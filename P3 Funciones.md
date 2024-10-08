@@ -2,6 +2,9 @@ Leer antes la práctica.
 
 Usar / Crear
 
+* Una cosa es saber usar. Otra cosa es saber crear.
+* Concepto de caja negra / TV.
+
 Utilidad: 
 * Factor común.
 * La programación es el arte de mover código poco a poco.
@@ -116,9 +119,6 @@ cout << area;
 2. No capturar lo que devuelve la función.
 
 # Ejemplo con dos llamadas
-Fijate en los nombres, viven entre llaves, dentro de su caja.
-
-Son reemplazados en la llamada.
 
 ```cpp
 #include <iostream>
@@ -144,3 +144,25 @@ float area_triangulo(float base, float altura){
 }
 ```
 
+Fijate en los nombres, viven entre llaves, dentro de su caja. Son locales.
+
+Son reemplazados en la llamada.
+
+![alt text](image-4.png)
+
+Una cosa es entender. Otra cosa es saber crear.
+
+# Usar librerías de otros
+
+```cpp
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+#include <cmath>
+int main(int argc, char *argv[]){
+	float a=8;
+	cout<<"a al cubo (a^3) es:"<<pow(a,3)<<endl;
+	cout<<"la raíz cuadrada de a es:"<<<sqrt(a);
+}
+´´´
