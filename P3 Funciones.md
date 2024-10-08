@@ -32,3 +32,4 @@ float areas_triangulo(float base,float altura){
 }
 ```
 
+![alt text](image-3.png)
