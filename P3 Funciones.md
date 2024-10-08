@@ -86,7 +86,7 @@ int main (int argc, char *argv[]) {
 ```
 
 # Códigos equivalentes
-Desde la forma mas compacta hasta la más extendida.
+Desde la forma más compacta hasta la más extendida.
 
 ```cpp
 cout << area_triangulo(3.5, 4.7);
@@ -104,10 +104,38 @@ area=area_triangulo(base, altura);
 cout << area;
 
 float base,altura;
-base=3.5;
+base=3.5; 
 altura=4.7;
 float area;
 area=area_triangulo(base, altura);
 cout << area;
+```
+
+# Errores comunes
+1. No respetar los tipos.
+2. No capturar lo que devuelve la función.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+float area_triangulo(float base, float altura); // Prototipo
+
+int main(int argc, char *argv[]) {
+	float altura_t1, base_t1, area_t1, area_t2;
+	altura_t1 = 4.5; base_t1 = 5.5;
+	area_t1 = area_triangulo(base_t1, altura_t1); // Una llamada a la función
+	area_t2 = area_triangulo(base_t1/3, 7.8); // Otra llamada, distintos valores
+	cout << "El área del triángulo 1 es:" << area_t1 << endl;
+	cout << "El área del triángulo 2 es:" << area_t1 << endl;
+	return 0;
+}
+
+// Definición de la función
+float area_triangulo(float base, float altura){ 
+	float area;
+	area = base*altura/2;
+	return area;
+}
 ```
 
