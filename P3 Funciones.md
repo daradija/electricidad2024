@@ -36,11 +36,12 @@ float areas_triangulo(float base,float altura){
 
 * Hay que indicar ¿qué se devuelve?, float, se ponde delante.
   * Tanto el la función.
-  * Tanto en los parámetros.
+  * Tanto en los parámetros.  
 * Lo parámetros se separan por comas.
 * El *Prototipo* es como ver la caja desde fuera.
 * La *Definición* es el interior.
   * Las llaves {} representan una caja.
+  * Recibe el nombre de cuerpo.
 * Recuerda: Es el mismo orden en el que se pinta la caja, salvo que el tipo va primero, y la caja son llaves.
 * ¿Qué fallo hay en este código?
 
@@ -50,3 +51,24 @@ float areas_triangulo(float base,float altura){
   * Porque las funciones pueden ser construidas por otras funciones.
   * Escribir el código sin prototipos es posible. Difícil cuando crece el código. No imposible.
 
+```basic
+10 REM Programa en GWBASIC para calcular el área de un triángulo
+20 REM Usando GOSUB y GOTO sin funciones modernas
+
+30 REM Solicitar valores al usuario
+40 PRINT "Introduce la base del triángulo: "
+50 INPUT B
+60 PRINT "Introduce la altura del triángulo: "
+70 INPUT H
+
+80 REM Calcular el área del triángulo
+90 GOSUB 200
+
+100 REM Mostrar el resultado
+110 PRINT "El área del triángulo es: "; A
+120 END
+
+200 REM Subrutina para calcular el área
+210 A = (B * H) / 2
+220 RETURN
+```
