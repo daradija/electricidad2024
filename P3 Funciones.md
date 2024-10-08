@@ -44,3 +44,9 @@ float areas_triangulo(float base,float altura){
 * Recuerda: Es el mismo orden en el que se pinta la caja, salvo que el tipo va primero, y la caja son llaves.
 * ¿Qué fallo hay en este código?
 
+# ¿Por qué existe el prototipo?
+* Es un índice.
+* Una forma de solucionar los problemas de huevo-gallina.
+  * Porque las funciones pueden ser construidas por otras funciones.
+  * Escribir el código sin prototipos es posible. Difícil cuando crece el código. No imposible.
+
