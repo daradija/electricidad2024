@@ -34,8 +34,11 @@ float areas_triangulo(float base,float altura){
 
 ![alt text](image-3.png)
 
-* Hay que indicar qué se devuelve, float, se ponde delante.
+* Hay que indicar ¿qué se devuelve?, float, se ponde delante.
+  * Tanto el la función.
+  * Tanto en los parámetros.
 * El *Prototipo* es como ver la caja desde fuera.
 * La *Definición" es el interior.
+  * Las llaves {} representan una caja.
 * ¿Qué fallo hay en este código?
 
