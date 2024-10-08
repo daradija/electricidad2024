@@ -115,6 +115,11 @@ cout << area;
 1. No respetar los tipos.
 2. No capturar lo que devuelve la función.
 
+# Ejemplo con dos llamadas
+Fijate en los nombres, viven entre llaves, dentro de su caja.
+
+Son reemplazados en la llamada.
+
 ```cpp
 #include <iostream>
 using namespace std;
