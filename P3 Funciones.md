@@ -50,6 +50,9 @@ float areas_triangulo(float base,float altura){
 * Una forma de solucionar los problemas de huevo-gallina.
   * Porque las funciones pueden ser construidas por otras funciones.
   * Escribir el código sin prototipos es posible. Difícil cuando crece el código. No imposible.
+* Es mas claro, leer el main, y luego los detalles.
+
+# ¿Qué había antes de las funciones?
 
 ```basic
 10 REM Programa en GWBASIC para calcular el área de un triángulo
@@ -71,4 +74,8 @@ float areas_triangulo(float base,float altura){
 200 REM Subrutina para calcular el área
 210 A = (B * H) / 2
 220 RETURN
+```
+# Llamada
+```cpp
+area_triangulo(3.5, 4.7);
 ```
