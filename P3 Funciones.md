@@ -102,5 +102,12 @@ float base=3.5,altura=4.7;
 float area;
 area=area_triangulo(base, altura);
 cout << area;
+
+float base,altura;
+base=3.5;
+altura=4.7;
+float area;
+area=area_triangulo(base, altura);
+cout << area;
 ```
 
