@@ -166,6 +166,7 @@ int main(int argc, char *argv[]){
 	cout<<"la raíz cuadrada de a es:"<<<sqrt(a);
 }
 ´´´
+
 # Ejercicio 1
 
 Compila mira el error e intenta adivinar la intención del programador.
