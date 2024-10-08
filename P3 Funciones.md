@@ -165,7 +165,7 @@ int main(int argc, char *argv[]){
 	cout<<"a al cubo (a^3) es:"<<pow(a,3)<<endl;
 	cout<<"la raíz cuadrada de a es:"<<<sqrt(a);
 }
-´´´
+```
 
 # Ejercicio 1
 
