@@ -13,7 +13,7 @@ Utilidad:
 
 ![alt text](image-2.png)
 
-'''cpp
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -30,4 +30,5 @@ float areas_triangulo(float base,float altura){
 	area=base*altura/2;
 	return area;
 }
-'''
+```
+
