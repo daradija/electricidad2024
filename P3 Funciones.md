@@ -37,8 +37,10 @@ float areas_triangulo(float base,float altura){
 * Hay que indicar ¿qué se devuelve?, float, se ponde delante.
   * Tanto el la función.
   * Tanto en los parámetros.
+* Lo parámetros se separan por comas.
 * El *Prototipo* es como ver la caja desde fuera.
-* La *Definición" es el interior.
+* La *Definición* es el interior.
   * Las llaves {} representan una caja.
+* Recuerda: Es el mismo orden en el que se pinta la caja, salvo que el tipo va primero, y la caja son llaves.
 * ¿Qué fallo hay en este código?
 
