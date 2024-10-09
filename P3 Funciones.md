@@ -221,3 +221,10 @@ Deben hallar las fórmulas, si no la saben buscando por internet.
 Ante un error incluir una transformación de tipo int().
 Usa llamadas a funciones anidadas.
 
+# Lista de fallos encontrados durante la práctica
+1. No expliqué el return, instrucción que va al final.
+2. No expliqué que los identificadores, nombres de funciones y parámetros no pueden llevar espacios.
+3. En las llamadas a funciones debí especificar que no se coloca el tipo, solo en el prototipo y la declaración.
+4. En el ejercicio 8 debí explicar la conversion a int.
+5. Las asignaciones no son ecuaciones.
+
