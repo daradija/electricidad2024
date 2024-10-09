@@ -228,4 +228,5 @@ Usa llamadas a funciones anidadas.
 4. En el ejercicio 8 debí explicar la conversion a int.
 5. Las asignaciones no son ecuaciones. En la parte izquierda, de la asignación debe ir una variable.
 6. Los parámetros están dentro del cuerpo {}, dentro de la "caja", aunque se escriban fuera. 
+7. Se debe repasar la depuración, punto de ruptura y ejecución con lupa, para encontrar fallos.
 
