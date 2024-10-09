@@ -226,5 +226,6 @@ Usa llamadas a funciones anidadas.
 2. No expliqué que los identificadores, nombres de funciones y parámetros no pueden llevar espacios.
 3. En las llamadas a funciones debí especificar que no se coloca el tipo, solo en el prototipo y la declaración.
 4. En el ejercicio 8 debí explicar la conversion a int.
-5. Las asignaciones no son ecuaciones.
+5. Las asignaciones no son ecuaciones. En la parte izquierda, de la asignación debe ir una variable.
+6. Los parámetros están dentro del cuerpo {}, dentro de la "caja", aunque se escriban fuera. 
 
