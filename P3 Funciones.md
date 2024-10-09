@@ -114,6 +114,11 @@ area=area_triangulo(base, altura);
 cout << area;
 ```
 
+# Gustos
+* Ante varios estilos preferir la forma más compacta.
+* Hacer transformaciones del código. De una forma de ejecución a otra más avanzada.
+* Usar las funciones para sacar factor común o comentar una región y aclarar el código.
+
 # Errores comunes
 1. No respetar los tipos.
 2. No capturar lo que devuelve la función.
@@ -167,6 +172,7 @@ int main(int argc, char *argv[]){
 }
 ```
 
+
 # Ejercicio 1
 
 Compila mira el error e intenta adivinar la intención del programador.
@@ -197,7 +203,6 @@ Deben hallar las fórmulas, si no la saben buscando por internet.
 
 # Ejercicio 8.
 
-La 8 tiene dificultades al insertar la fórmula.
-Tiene mas nivel al incluir operaciones con tipos de datos.
-
+Ante un error incluir una transformación de tipo int().
+Usa llamadas a funciones anidadas.
 
